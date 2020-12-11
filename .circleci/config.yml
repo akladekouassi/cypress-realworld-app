@@ -155,6 +155,7 @@ windows-workflow: &windows-workflow
           # executor comes from the "windows" orb
           name: win/default
           shell: bash.exe
+          size: large
         post-steps:
           - run:
               name: Cypress info
