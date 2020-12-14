@@ -161,9 +161,6 @@ windows-workflow: &windows-workflow
               name: Cypress info
               command: yarn cypress info
           - run:
-              name: Cypress cache list
-              command: yarn cypress cache list
-          - run:
               name: Check Types
               command: yarn types
           - run:
